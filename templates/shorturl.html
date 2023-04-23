@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Short URL{% endblock %}
+
+{% block content %}
+    <!-- <h1>https://tinyurlanish.herokuapp.com/{{short_url_display}}</h1> -->
+    <div class="short-urls">
+        <h1 class="url-h1" id="myText">http://127.0.0.1:5000/{{short_url_display}}</h1>
+        <a class="btn-1" onclick="copyContent()"> <img src="/static/copy.png"  class="btn-1-img" alt="" width="28px"></a>   
+    </div>
+    <a href="http://127.0.0.1:5000/" class="url-a"> <img src="/static/arrow.png" alt="BACK" width="35px"></a> 
+    
+{% endblock %}

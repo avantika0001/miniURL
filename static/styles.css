@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+html{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: #6C9BCF; */
+    background: radial-gradient(circle at 10% 20%, rgb(67, 144, 233) 0%, rgb(78, 226, 198) 90.1%);
+    color: #2A2F4F;
+    font-family: 'Inter', sans-serif;
+  }
+  
+.nav{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.nav img{
+    padding: 5px;
+}
+
+  .btn {
+    background-color: #009FBD;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    width: 50px;
+    height: 30px;
+  }
+  
+  .btn:hover {
+    background-color: #146C94;
+  }
+
+  .btn-sub{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+
+  .box-1{
+    background-color:  #C0DBEA;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 10px 15px 0px #2A2F4F;
+    
+  }
+
+.box-1 h1{
+/* padding:1px; */
+    margin-bottom: 0;
+  }
+
+  .box-2{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  
+
+  input[type='url']{
+    background-color: white;
+    border: none;
+    outline: none;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 1.2rem;
+
+  }
+  .box-2 label{
+    padding: 10px;
+  }
+
+  .footer{
+    font-size: 15px;
+    
+  }
+  .socials{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .url-h1{
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+
+  .url-a{
+    background-color: #009FBD;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .url-a:hover{
+    background-color: #146C94;
+  }
+
+  .short-urls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.short-urls img{
+cursor:pointer;
+  }
+  
+  
+  
