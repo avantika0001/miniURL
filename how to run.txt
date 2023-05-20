@@ -1,0 +1,5 @@
+pip install virtualenv
+virtual env
+.\env\Scripts\activate.ps1
+pip insatll flask
+python .\app.py
